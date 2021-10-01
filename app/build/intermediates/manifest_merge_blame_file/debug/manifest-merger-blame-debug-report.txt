@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mukesh.ip40"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:5-79
+13-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:5-68
+14-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:26:5-110
+15-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:26:22-79
+17
+18    <permission
+18-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:28:5-30:47
+19        android:name="com.mukesh.ip40.permission.C2D_MESSAGE"
+19-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:29:9-63
+20        android:protectionLevel="signature" />
+20-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:30:9-44
+21
+22    <uses-permission android:name="com.mukesh.ip40.permission.C2D_MESSAGE" />
+22-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:32:5-79
+22-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:32:22-76
+23
+24    <application
+24-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:7:5-31:19
+25        android:allowBackup="true"
+25-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:8:9-35
+26        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+26-->[com.android.support:support-compat:28.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\895559d2bf708e950c8f9daa6bb1fb41\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+27        android:debuggable="true"
+28        android:icon="@drawable/icon"
+28-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:9:9-38
+29        android:label="@string/app_name"
+29-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:10:9-41
+30        android:roundIcon="@drawable/icon"
+30-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:11:9-43
+31        android:supportsRtl="true"
+31-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:12:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:13:9-40
+34        <activity android:name="com.mukesh.ip40.MainActivity" >
+34-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:14:9-20:20
+34-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:14:19-47
+35            <intent-filter>
+35-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:15:13-19:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:16:17-69
+36-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:16:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:18:17-77
+38-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:18:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.mukesh.ip40.LoginActivity" />
+41-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:21:9-51
+41-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:21:19-48
+42        <activity android:name="com.mukesh.ip40.teacherlogin" />
+42-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:22:9-50
+42-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:22:19-47
+43        <activity android:name="com.mukesh.ip40.studentlogin" />
+43-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:23:9-50
+43-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:23:19-47
+44        <activity android:name="com.mukesh.ip40.adminlogin" />
+44-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:24:9-48
+44-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:24:19-45
+45        <activity android:name="com.mukesh.ip40.addteacher" />
+45-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:25:9-48
+45-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:25:19-45
+46        <activity android:name="com.mukesh.ip40.addstudent" />
+46-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:26:9-48
+46-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:26:19-45
+47        <activity android:name="com.mukesh.ip40.takeAttendance" />
+47-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:27:9-52
+47-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:27:19-49
+48        <activity android:name="com.mukesh.ip40.admin_attendanceSheet" />
+48-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:28:9-59
+48-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:28:19-56
+49        <activity android:name="com.mukesh.ip40.teacher_attendanceSheet" />
+49-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:29:9-61
+49-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:29:19-58
+50        <activity android:name="com.mukesh.ip40.student_attendance_sheet" />
+50-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:30:9-71
+50-->C:\Users\nehaj\AndroidStudioProjects\IP40\app\src\main\AndroidManifest.xml:30:19-59
+51
+52        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+52-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:27:9-31:19
+52-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:27:18-89
+53            <meta-data
+53-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:28:13-30:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+54-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:29:17-139
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:30:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:36:13-38:85
+57                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+57-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:37:17-96
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:38:17-82
+59        </service>
+60
+61        <receiver
+61-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:29:9-33:20
+62            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+62-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:30:13-85
+63            android:enabled="true"
+63-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:31:13-35
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:32:13-37
+65        </receiver>
+66        <receiver
+66-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:34:9-42:20
+67            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+67-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:35:13-100
+68            android:enabled="true"
+68-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:36:13-35
+69            android:exported="true"
+69-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:37:13-36
+70            android:permission="android.permission.INSTALL_PACKAGES" >
+70-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:38:13-69
+71            <intent-filter>
+71-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:39:13-41:29
+72                <action android:name="com.android.vending.INSTALL_REFERRER" />
+72-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:40:17-79
+72-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:40:25-76
+73            </intent-filter>
+74        </receiver>
+75
+76        <service
+76-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:44:9-47:40
+77            android:name="com.google.android.gms.measurement.AppMeasurementService"
+77-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:45:13-84
+78            android:enabled="true"
+78-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:46:13-35
+79            android:exported="false" />
+79-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:47:13-37
+80        <service
+80-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:48:9-52:72
+81            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+81-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:49:13-87
+82            android:enabled="true"
+82-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:50:13-35
+83            android:exported="false"
+83-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:51:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:52:13-69
+85
+86        <receiver
+86-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:41:9-50:20
+87            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+87-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:42:13-78
+88            android:exported="true"
+88-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:43:13-36
+89            android:permission="com.google.android.c2dm.permission.SEND" >
+89-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:44:13-73
+90            <intent-filter>
+90-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:45:13-49:29
+91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+91-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:46:17-81
+91-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:46:25-78
+92
+93                <category android:name="com.mukesh.ip40" />
+93-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:48:17-61
+93-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:48:27-58
+94            </intent-filter>
+95        </receiver>
+96        <!--
+97             FirebaseInstanceIdService performs security checks at runtime,
+98             no need for explicit permissions despite exported="true"
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:56:9-62:19
+101            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+101-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:57:13-77
+102            android:exported="true" >
+102-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:58:13-36
+103            <intent-filter android:priority="-500" >
+103-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:59:13-61:29
+103-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:59:28-51
+104                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+104-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:60:17-80
+104-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:60:25-77
+105            </intent-filter>
+106        </service>
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+110            android:authorities="com.mukesh.ip40.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:16.0.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+122        <meta-data
+122-->[com.android.support:support-v4:26.1.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\6b407c900b1ead6e3743b71fbe19b5d5\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+123            android:name="android.support.VERSION"
+123-->[com.android.support:support-v4:26.1.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\6b407c900b1ead6e3743b71fbe19b5d5\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+124            android:value="26.1.0" />
+124-->[com.android.support:support-v4:26.1.0] C:\Users\nehaj\.gradle\caches\transforms-2\files-2.1\6b407c900b1ead6e3743b71fbe19b5d5\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+125    </application>
+126
+127</manifest>
